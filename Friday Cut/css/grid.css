@@ -1,0 +1,72 @@
+.grid-main{
+    display: grid;
+    grid-template-areas:
+'header1 header1'
+'main1 main1';
+    grid-gap: 10px;
+    padding: 10px;
+}
+#header1{
+    grid-area: header1;
+    background-image: url("../images/circuits-city.jpg");
+    background-size: cover;
+    height: 300px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+#main1{
+    grid-area: main1;
+    background-image: url("../images/flowers-yellow.jpg");
+    background-size: cover;
+    height:70vh;
+    color: white;
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:
+'a b c'
+'d e f';
+    background: url("../images/nature-landscape.jpg");
+    background-size: cover;
+}
+.grid-container{
+    height: 900px;
+    margin: 10px;
+    padding: 10px;
+}
+#a,#b,#c,#d,#e,#f{
+    margin-left: 50px;
+    background-color: white;
+    height: 30vh;
+}
+#a{
+    grid-area: a;
+    padding: 10px;
+    display: flex;
+}
+#b{
+    grid-area: b;
+    padding: 10px;
+}
+#c{
+    grid-area: c;
+    padding: 10px;
+}
+#d{
+    grid-area: d;
+    padding: 10px;
+}
+#e{
+    grid-area: e;
+    padding: 10px;
+}
+#f{
+    grid-area: f;
+    padding: 10px;
+}
